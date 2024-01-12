@@ -16,21 +16,19 @@
 		8080
 	],
 	"features": {
-		"ghcr.io/devcontainers/features/node:1": {
-			"nodeGypDependencies": true,
-			"version": "lts",
-			"nvmVersion": "latest"
-		},
-		"ghcr.io/devcontainers-contrib/features/composer:1": {
-			"version": "latest"
-		},
-		"ghcr.io/devcontainers-contrib/features/npm-package:1": {
-			"package": "typescript",
-			"version": "latest"
-		},
-		"ghcr.io/jayree/devcontainer-features/npm-registry:1": {
-			"registry": "@SCOPE:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${localEnv:GITHUB_TOKEN}"
-		}
+		"ghcr.io/devcontainers/features/aws-cli:1": {},
+		"ghcr.io/devcontainers/features/common-utils:2": {},
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
+		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers/features/php:1": {},
+		"ghcr.io/devcontainers-contrib/features/aws-cdk:2": {},
+		"ghcr.io/devcontainers-contrib/features/composer:1": {},
+		"ghcr.io/devcontainers-contrib/features/curl-apt-get:1": {},
+		"ghcr.io/devcontainers-contrib/features/npm-package:1": {},
+		"ghcr.io/customink/codespaces-features/sam-cli:1": {},
+		"ghcr.io/joshuanianji/devcontainer-features/aws-cli-persistence:1": {},
+		"ghcr.io/jayree/devcontainer-features/npm-registry:1": {},
+		"ghcr.io/joshspicer/more-features/cowsay:1": {}
 	}
 
 	// Use 'postCreateCommand' to run commands after the container is created.
